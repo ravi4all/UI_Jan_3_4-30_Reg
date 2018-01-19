@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        ul li {
+            display: inline-block;
+            background-color: lightblue;
+            width: 15%;
+            text-align: center;
+        }
+        ul li a {
+            padding: 20px;
+            text-decoration: none;
+            color: #000;
+            display: block;
+        }
+        ul li a:hover {
+            background-color: lightcoral;
+        }
+        #parent .div_1 {
+            display: inline-block;
+            width: 33%;
+            border-right: 1px solid #000;
+        }
+        #parent .div_1:last-child {
+            border: none;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Display Property</h1>
+
+    <ul>
+        <li><a href="#">List Item</a></li>
+        <li><a href="#">List Item</a></li>
+        <li><a href="#">List Item</a></li>
+        <li><a href="#">List Item</a></li>
+        <li><a href="#">List Item</a></li>
+    </ul>
+
+    <div id="parent">
+            <div class="div_1">
+                    <h2>Column_1</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic ullam rerum eius quam officiis, quos excepturi natus reiciendis tenetur laudantium qui, vero unde incidunt quae harum optio officia esse perspiciatis?
+                    </p>
+                </div>
+            
+                <div class="div_1">
+                        <h2>Column_1</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic ullam rerum eius quam officiis, quos excepturi natus reiciendis tenetur laudantium qui, vero unde incidunt quae harum optio officia esse perspiciatis?
+                        </p>
+                    </div>
+            
+                    <div class="div_1">
+                            <h2>Column_1</h2>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic ullam rerum eius quam officiis, quos excepturi natus reiciendis tenetur laudantium qui, vero unde incidunt quae harum optio officia esse perspiciatis?
+                            </p>
+                        </div>
+    </div>
+    
+    
+</body>
+</html>
