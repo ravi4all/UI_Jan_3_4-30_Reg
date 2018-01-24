@@ -1,0 +1,71 @@
+body {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav_sprite {
+    background-image: url("../images/sp-gnb-pc-white.png");
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+#header {
+    background-color: #1658AC;
+}
+
+#header .logo .nav-logo{
+    display: inline-block;
+    width: 127px;
+    height: 19px;
+}
+
+/* #header:hover {
+    background-color: #fff;
+} */
+/* #header:hover .nav_sprite {
+    background-image: url("../images/sp-gnb-pc.png");
+} */
+
+#header ul li {
+    font-size: 14px;
+    padding: 0px 15px 0px 15px;
+    display: inline-block;
+}
+#header ul li a {
+    padding: 15px 0px 15px 0px;
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+
+/* 
+Pseudo Classes 
+*/
+#header ul li:first-child {
+    padding-left: 0px;
+}
+/* #header ul li:nth-child(3){
+
+} */
+
+#main-navigation {
+    float: left;
+}
+#header .logo {
+    float: left;
+}
+#header .logo a {
+    display: block;
+    padding: 15px 0px;
+}
+#user-section {
+    float: right;
+}
+#header .clear {
+    clear: both;
+}
